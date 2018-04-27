@@ -1,5 +1,5 @@
 module.exports = {
   env: {
-    helloEndpoint: process.env.helloEndpoint || "http://localhost:8080/hello"
+    helloEndpoint: process.env.helloEndpoint || "http://localhost:8081/hello"
   }
 }

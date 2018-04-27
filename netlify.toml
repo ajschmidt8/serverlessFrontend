@@ -1,0 +1,6 @@
+[[redirects]]
+  from = "/api/hello"
+#   to = "https://q9ry692t59.execute-api.us-east-1.amazonaws.com/dev/hello"
+  to = "http://localhost:8081/hello"
+  status = 301
+  signed = "API_SIGNATURE_TOKEN"
