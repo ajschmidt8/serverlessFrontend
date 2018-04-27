@@ -1,6 +1,5 @@
 module.exports = {
-    modules: [
-		// Simple usage
-		"@nuxtjs/dotenv",
-    ],
+  env: {
+    helloEndpoint: process.env.helloEndpoint || "http://localhost:8080/hello"
+  }
 }
