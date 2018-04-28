@@ -24,6 +24,7 @@ export default {
         backendCall() {
             return axios.get(process.env.helloEndpoint)
             .then(resp => {
+                console.log(resp.data.input);
                 return this.message = resp.data.message;
             })
         }
