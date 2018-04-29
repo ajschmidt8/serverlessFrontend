@@ -17,7 +17,7 @@
     "vue-style-loader": "^4.1.0"
   },
   "devDependencies": {
-    "node-sass": "^4.8.3",
+    "node-sass": "^4.9.0",
     "sass-loader": "^7.0.1"
   }
 }
